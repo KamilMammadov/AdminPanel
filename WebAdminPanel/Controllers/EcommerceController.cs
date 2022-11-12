@@ -8,5 +8,9 @@ namespace WebAdminPanel.Controllers
         {
             return View();
         }
+        public IActionResult ProductList()
+        {
+            return View();
+        }
     }
 }

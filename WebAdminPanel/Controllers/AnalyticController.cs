@@ -2,11 +2,15 @@
 
 namespace WebAdminPanel.Controllers
 {
-	public class Analytic : Controller
+	public class AnalyticController : Controller
 	{
 		public IActionResult Customers()
 		{
 			return View();
 		}
-	}
+        public IActionResult Reports()
+        {
+            return View();
+        }
+    }
 }

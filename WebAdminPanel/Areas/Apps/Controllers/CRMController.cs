@@ -2,22 +2,24 @@
 
 namespace WebAdminPanel.Controllers
 {
-    public class PatientsController : Controller
+    [Area("apps")]
+    public class CRMController : Controller
     {
-        public IActionResult AllPatients()
+        public IActionResult Contacts()
         {
             return View();
         }
 
-        public IActionResult AddPatient()
+        public IActionResult Opportunities()
         {
             return View();
         }
-        public IActionResult PatientEdit()
+        public IActionResult Leads()
         {
             return View();
         }
-        public IActionResult PatientProfile()
+
+        public IActionResult Customers()
         {
             return View();
         }

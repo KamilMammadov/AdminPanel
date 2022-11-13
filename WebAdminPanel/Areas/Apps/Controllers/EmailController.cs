@@ -2,13 +2,14 @@
 
 namespace WebAdminPanel.Controllers
 {
-    public class AppointmentsController : Controller
+        [Area("apps")]
+    public class EmailController : Controller
     {
-        public IActionResult Shedule()
+        public IActionResult Inbox()
         {
             return View();
         }
-        public IActionResult AllAppointments()
+        public IActionResult ReadEmail()
         {
             return View();
         }

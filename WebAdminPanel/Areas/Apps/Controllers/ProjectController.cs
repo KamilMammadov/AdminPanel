@@ -2,6 +2,7 @@
 
 namespace WebAdminPanel.Controllers
 {
+    [Area("apps")]
     public class ProjectController : Controller
     {
         public IActionResult Clients()

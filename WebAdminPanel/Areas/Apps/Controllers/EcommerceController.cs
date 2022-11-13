@@ -2,27 +2,29 @@
 
 namespace WebAdminPanel.Controllers
 {
-    public class StaffController : Controller
+        [Area("apps")]
+    public class EcommerceController : Controller
     {
-        public IActionResult AllStaff()
+        public IActionResult Products()
         {
             return View();
         }
-        public IActionResult AddMember()
+        public IActionResult ProductList()
         {
             return View();
         }
-        public IActionResult EditMember()
+        public IActionResult ProductDetail()
         {
             return View();
         }
-        public IActionResult MemberProfile()
+        public IActionResult Cart()
         {
             return View();
         }
-        public IActionResult Salary()
+        public IActionResult Checkout()
         {
             return View();
         }
+
     }
 }

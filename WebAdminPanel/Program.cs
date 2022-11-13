@@ -1,3 +1,6 @@
+using Microsoft.AspNetCore.Mvc.Razor;
+using Microsoft.AspNetCore.Mvc.ViewEngines;
+
 namespace WebAdminPanel
 {
     public class Program
@@ -7,12 +10,11 @@ namespace WebAdminPanel
             var builder = WebApplication.CreateBuilder(args);
             builder.Services.AddMvc();
             var app = builder.Build();
-
             app.UseStaticFiles();
-
+         
             app.MapControllerRoute(
                 name: "default",
-                pattern: "{controller=Home}/{action=Index}"
+                pattern: "{area:exists}/{controller=Home}/{action=Index}"
                 );
 
             app.Run();

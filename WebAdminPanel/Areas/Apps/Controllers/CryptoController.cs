@@ -2,8 +2,11 @@
 
 namespace WebAdminPanel.Controllers
 {
+    [Area("apps")]
     public class CryptoController : Controller
     {
+
+
         public IActionResult Exchange()
         {
             return View();

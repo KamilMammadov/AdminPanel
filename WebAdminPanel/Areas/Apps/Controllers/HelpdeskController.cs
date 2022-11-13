@@ -2,20 +2,20 @@
 
 namespace WebAdminPanel.Controllers
 {
-    public class PaymentsController : Controller
+        [Area("apps")]
+    public class HelpdeskController : Controller
     {
-        public IActionResult AllPayments()
+        public IActionResult Ticket()
         {
             return View();
         }
-        public IActionResult Invoice()
+        public IActionResult Reports()
         {
             return View();
         }
-        public IActionResult Cashless()
+        public IActionResult Agents()
         {
             return View();
         }
-
     }
 }

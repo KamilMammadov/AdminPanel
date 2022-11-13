@@ -100,7 +100,7 @@
 
                         <ul class="nav flex-column">
                             <li class="nav-item">
-                                <a class="nav-link" asp-controller="Home" asp-action="index" >Analytics</a>
+                                <a class="nav-link" asp-area="Apps" asp-controller="Home" asp-action="index" >Analytics</a>
                             </li><!--end nav-item-->
                             <li class="nav-item">
                                 <a class="nav-link" href="crypto-index.html">Crypto</a>
@@ -140,10 +140,10 @@
                                     <div class="collapse " id="sidebarAnalytics">
                                         <ul class="nav flex-column">
                                             <li class="nav-item">
-                                                <a asp-controller="Analytic" asp-action="Customers" class="nav-link ">Customers</a>
+                                                <a asp-area="Apps" asp-controller="Analytic" asp-action="Customers" class="nav-link ">Customers</a>
                                             </li><!--end nav-item-->
                                             <li class="nav-item">
-                                                <a asp-controller="Analytic" asp-action="Reports" class="nav-link ">Reports</a>
+                                                <a asp-area="Apps" asp-controller="Analytic" asp-action="Reports" class="nav-link ">Reports</a>
                                             </li><!--end nav-item-->
                                         </ul><!--end nav-->
                                     </div><!--end sidebarAnalytics-->
@@ -157,19 +157,19 @@
                                     <div class="collapse " id="sidebarCrypto">
                                         <ul class="nav flex-column">
                                             <li class="nav-item">
-                                                <a class="nav-link" asp-controller="Crypto" asp-action="Exchange">Exchange</a>
+                                                <a class="nav-link" asp-area="Apps" asp-controller="Crypto" asp-action="Exchange">Exchange</a>
                                             </li><!--end nav-item-->
                                             <li class="nav-item">
-                                                <a class="nav-link" asp-controller="Crypto" asp-action="Wallet">Wallet</a>
+                                                <a class="nav-link" asp-area="Apps" asp-controller="Crypto" asp-action="Wallet">Wallet</a>
                                             </li><!--end nav-item-->
                                             <li class="nav-item">
-                                            <a class="nav-link" asp-controller="Crypto" asp-action="News">Crypto News</a>
+                                            <a class="nav-link" asp-area="Apps" asp-controller="Crypto" asp-action="News">Crypto News</a>
                                             </li><!--end nav-item-->
                                             <li class="nav-item">
-                                                <a class="nav-link" asp-controller="Crypto" asp-action="Ico">ICO List</a>
+                                                <a class="nav-link" asp-area="Apps" asp-controller="Crypto" asp-action="Ico">ICO List</a>
                                             </li><!--end nav-item-->
                                             <li class="nav-item">
-                                                <a class="nav-link" asp-controller="Crypto" asp-action="Settings">Settings</a>
+                                                <a class="nav-link" asp-area="Apps" asp-controller="Crypto" asp-action="Settings">Settings</a>
                                             </li><!--end nav-item-->
                                         </ul><!--end nav-->
                                     </div><!--end sidebarCrypto-->
@@ -183,16 +183,16 @@
                                     <div class="collapse " id="sidebarCRM">
                                         <ul class="nav flex-column">
                                             <li class="nav-item">
-                                                <a class="nav-link" asp-controller="CRM" asp-action="Contacts">Contacts</a>
+                                                <a class="nav-link" asp-area="Apps" asp-controller="CRM" asp-action="Contacts">Contacts</a>
                                             </li><!--end nav-item-->
                                             <li class="nav-item">
-                                                <a class="nav-link" asp-controller="CRM" asp-action="Opportunities">Opportunities</a>
+                                                <a class="nav-link" asp-area="Apps" asp-controller="CRM" asp-action="Opportunities">Opportunities</a>
                                             </li><!--end nav-item-->
                                             <li class="nav-item">
-                                                <a class="nav-link" asp-controller="CRM" asp-action="Leads">Leads</a>
+                                                <a class="nav-link" asp-area="Apps" asp-controller="CRM" asp-action="Leads">Leads</a>
                                             </li><!--end nav-item-->
                                             <li class="nav-item">
-                                                <a class="nav-link" asp-controller="CRM" asp-action="Customers">Customers</a>
+                                                <a class="nav-link" asp-area="Apps" asp-controller="CRM" asp-action="Customers">Customers</a>
                                             </li><!--end nav-item--> 
                                         </ul><!--end nav-->
                                     </div><!--end sidebarCRM-->
@@ -206,28 +206,28 @@
                                     <div class="collapse " id="sidebarProjects">
                                         <ul class="nav flex-column">
                                             <li class="nav-item">
-                                                <a class="nav-link" asp-controller="Project" asp-action="Clients">Clients</a>
+                                                <a class="nav-link" asp-area="Apps" asp-controller="Project" asp-action="Clients">Clients</a>
                                             </li><!--end nav-item-->
                                             <li class="nav-item">
-                                                <a class="nav-link" asp-controller="Project" asp-action="Team">Team</a>
+                                                <a class="nav-link" asp-area="Apps" asp-controller="Project" asp-action="Team">Team</a>
                                             </li><!--end nav-item-->
                                             <li class="nav-item">
-                                                <a class="nav-link" asp-controller="Project" asp-action="Project">Project</a>
+                                                <a class="nav-link" asp-area="Apps" asp-controller="Project" asp-action="Project">Project</a>
                                             </li><!--end nav-item-->
                                             <li class="nav-item">
-                                                <a class="nav-link" asp-controller="Project" asp-action="Task">Task</a>
+                                                <a class="nav-link" asp-area="Apps" asp-controller="Project" asp-action="Task">Task</a>
                                             </li><!--end nav-item-->
                                             <li class="nav-item">
-                                                <a class="nav-link" asp-controller="Project" asp-action="KanbanBoard">Kanban Board</a>
+                                                <a class="nav-link" asp-area="Apps" asp-controller="Project" asp-action="KanbanBoard">Kanban Board</a>
                                             </li><!--end nav-item-->
                                             <li class="nav-item">
-                                                <a class="nav-link" asp-controller="Project" asp-action="Chat">Chat</a>
+                                                <a class="nav-link" asp-area="Apps" asp-controller="Project" asp-action="Chat">Chat</a>
                                             </li><!--end nav-item-->
                                             <li class="nav-item">
-                                                <a class="nav-link" asp-controller="Project" asp-action="Users">Users</a>
+                                                <a class="nav-link" asp-area="Apps" asp-controller="Project" asp-action="Users">Users</a>
                                             </li><!--end nav-item-->
                                             <li class="nav-item">
-                                                <a class="nav-link" asp-controller="Project" asp-action="ProjectCreate">Project Create</a>
+                                                <a class="nav-link" asp-area="Apps" asp-controller="Project" asp-action="ProjectCreate">Project Create</a>
                                             </li><!--end nav-item--> 
                                         </ul><!--end nav-->
                                     </div><!--end sidebarProjects-->
@@ -241,19 +241,19 @@
                                     <div class="collapse " id="sidebarEcommerce">
                                         <ul class="nav flex-column">
                                             <li class="nav-item">
-                                                <a class="nav-link" asp-controller="Ecommerce" asp-action="Products">Products</a>
+                                                <a class="nav-link" asp-area="Apps" asp-controller="Ecommerce" asp-action="Products">Products</a>
                                             </li><!--end nav-item-->
                                             <li class="nav-item">
-                                                <a class="nav-link" asp-controller="Ecommerce" asp-action="ProductList">Product List</a>
+                                                <a class="nav-link" asp-area="Apps" asp-controller="Ecommerce" asp-action="ProductList">Product List</a>
                                             </li><!--end nav-item-->
                                             <li class="nav-item">
-                                                <a class="nav-link" asp-controller="Ecommerce" asp-action="ProductDetail">Product Detail</a>
+                                                <a class="nav-link" asp-area="Apps" asp-controller="Ecommerce" asp-action="ProductDetail">Product Detail</a>
                                             </li><!--end nav-item-->
                                             <li class="nav-item">
-                                                <a class="nav-link" asp-controller="Ecommerce" asp-action="Cart">Cart</a>
+                                                <a class="nav-link" asp-area="Apps" asp-controller="Ecommerce" asp-action="Cart">Cart</a>
                                             </li><!--end nav-item-->
                                             <li class="nav-item">
-                                                <a class="nav-link" asp-controller="Ecommerce" asp-action="CheckOut">Checkout</a>
+                                                <a class="nav-link" asp-area="Apps" asp-controller="Ecommerce" asp-action="CheckOut">Checkout</a>
                                             </li><!--end nav-item-->
                                         </ul><!--end nav-->
                                     </div><!--end sidebarEcommerce-->
@@ -267,13 +267,13 @@
                                     <div class="collapse " id="sidebarHelpdesk">
                                         <ul class="nav flex-column">
                                             <li class="nav-item">
-                                                <a class="nav-link" asp-controller="HelpDesk" asp-action="Ticket">Tickets</a>
+                                                <a class="nav-link" asp-area="Apps" asp-controller="HelpDesk" asp-action="Ticket">Tickets</a>
                                             </li><!--end nav-item-->
                                             <li class="nav-item">
-                                                <a class="nav-link" asp-controller="HelpDesk" asp-action="Reports">Reports</a>
+                                                <a class="nav-link" asp-area="Apps" asp-controller="HelpDesk" asp-action="Reports">Reports</a>
                                             </li><!--end nav-item-->
                                             <li class="nav-item">
-                                                <a class="nav-link" asp-controller="Helpdesk" asp-action="Agents">Agents</a>
+                                                <a class="nav-link" asp-area="Apps" asp-controller="Helpdesk" asp-action="Agents">Agents</a>
                                             </li><!--end nav-item-->
                                         </ul><!--end nav-->
                                     </div><!--end sidebarHelpdesk-->
@@ -294,10 +294,10 @@
                                                 <div class="collapse " id="sidebarAppointments">
                                                     <ul class="nav flex-column">
                                                         <li class="nav-item">
-                                                            <a class="nav-link" asp-controller="Appointments" asp-action="Shedule">Dr. Shedule</a>
+                                                            <a class="nav-link" asp-area="Apps" asp-controller="Appointments" asp-action="Shedule">Dr. Shedule</a>
                                                         </li><!--end nav-item-->
                                                         <li class="nav-item">
-                                                            <a class="nav-link" asp-controller="Appointments" asp-action="AllAppointments">All Appointments</a>
+                                                            <a class="nav-link" asp-area="Apps" asp-controller="Appointments" asp-action="AllAppointments">All Appointments</a>
                                                         </li><!--end nav-item-->
                                                     </ul><!--end nav-->
                                                 </div><!--end sidebarAppointments-->
@@ -310,16 +310,16 @@
                                                 <div class="collapse" id="sidebarDoctors">
                                                     <ul class="nav flex-column">
                                                         <li class="nav-item">
-                                                            <a class="nav-link" asp-controller="Doctors" asp-action="AllDoctors">All Doctors</a>
+                                                            <a class="nav-link" asp-area="Apps" asp-controller="Doctors" asp-action="AllDoctors">All Doctors</a>
                                                         </li><!--end nav-item-->
                                                         <li class="nav-item">
-                                                            <a class="nav-link" asp-controller="Doctors" asp-action="AddDoctor">Add Doctor</a>
+                                                            <a class="nav-link" asp-area="Apps" asp-controller="Doctors" asp-action="AddDoctor">Add Doctor</a>
                                                         </li><!--end nav-item-->
                                                         <li class="nav-item">
-                                                            <a class="nav-link" asp-controller="Doctors" asp-action="DoctorEdit">Doctor Edit</a>
+                                                            <a class="nav-link" asp-area="Apps" asp-controller="Doctors" asp-action="DoctorEdit">Doctor Edit</a>
                                                         </li><!--end nav-item-->
                                                         <li class="nav-item">
-                                                            <a class="nav-link" asp-controller="Doctors" asp-action="DoctorProfile">Doctor Profile</a>
+                                                            <a class="nav-link" asp-area="Apps" asp-controller="Doctors" asp-action="DoctorProfile">Doctor Profile</a>
                                                         </li><!--end nav-item-->
                                                     </ul><!--end nav-->
                                                 </div><!--end sidebarDoctors-->
@@ -333,16 +333,16 @@
                                                 <div class="collapse" id="sidebarPatients">
                                                     <ul class="nav flex-column">
                                                         <li class="nav-item">
-                                                            <a class="nav-link" asp-controller="Patients" asp-action="AllPatients">All Patients</a>
+                                                            <a class="nav-link" asp-area="Apps" asp-controller="Patients" asp-action="AllPatients">All Patients</a>
                                                         </li><!--end nav-item-->
                                                         <li class="nav-item">
-                                                            <a class="nav-link" asp-controller="Patients" asp-action="AddPatient">Add Patient</a>
+                                                            <a class="nav-link" asp-area="Apps" asp-controller="Patients" asp-action="AddPatient">Add Patient</a>
                                                         </li><!--end nav-item-->
                                                         <li class="nav-item">
-                                                            <a class="nav-link" asp-controller="Patients" asp-action="PatientEdit">Patient Edit</a>
+                                                            <a class="nav-link" asp-area="Apps" asp-controller="Patients" asp-action="PatientEdit">Patient Edit</a>
                                                         </li><!--end nav-item-->
                                                         <li class="nav-item">
-                                                            <a class="nav-link" asp-controller="Patients" asp-action="PatientProfile">Patient Profile</a>
+                                                            <a class="nav-link" asp-area="Apps" asp-controller="Patients" asp-action="PatientProfile">Patient Profile</a>
                                                         </li><!--end nav-item-->
                                                     </ul><!--end nav-->
                                                 </div><!--end sidebarPatients-->
@@ -356,13 +356,13 @@
                                                 <div class="collapse" id="sidebarPayments">
                                                     <ul class="nav flex-column">
                                                         <li class="nav-item">
-                                                            <a class="nav-link" asp-controller="Payments" asp-action="AllPayments">All Payments</a>
+                                                            <a class="nav-link" asp-area="Apps" asp-controller="Payments" asp-action="AllPayments">All Payments</a>
                                                         </li><!--end nav-item-->
                                                         <li class="nav-item">
-                                                            <a class="nav-link" asp-controller="Payments" asp-action="Invoice">Payment Invoice</a>
+                                                            <a class="nav-link" asp-area="Apps" asp-controller="Payments" asp-action="Invoice">Payment Invoice</a>
                                                         </li><!--end nav-item-->
                                                         <li class="nav-item">
-                                                            <a class="nav-link" asp-controller="Payments" asp-action="Cashless">Cashless Payments</a>
+                                                            <a class="nav-link" asp-area="Apps" asp-controller="Payments" asp-action="Cashless">Cashless Payments</a>
                                                         </li><!--end nav-item-->
                                                     </ul><!--end nav-->
                                                 </div><!--end sidebarPayments-->
@@ -376,19 +376,19 @@
                                                 <div class="collapse" id="sidebarStaff">
                                                     <ul class="nav flex-column">
                                                         <li class="nav-item">
-                                                            <a class="nav-link" asp-controller="Staff" asp-action="AllStaff">All Staff</a>
+                                                            <a class="nav-link" asp-area="Apps" asp-controller="Staff" asp-action="AllStaff">All Staff</a>
                                                         </li><!--end nav-item-->
                                                         <li class="nav-item">
-                                                            <a class="nav-link" asp-controller="Staff" asp-action="AddMember">Add Member</a>
+                                                            <a class="nav-link" asp-area="Apps" asp-controller="Staff" asp-action="AddMember">Add Member</a>
                                                         </li><!--end nav-item-->
                                                         <li class="nav-item">
-                                                            <a class="nav-link" asp-controller="Staff" asp-action="EditMember">Edit Member</a>
+                                                            <a class="nav-link" asp-area="Apps" asp-controller="Staff" asp-action="EditMember">Edit Member</a>
                                                         </li><!--end nav-item-->
                                                         <li class="nav-item">
-                                                            <a class="nav-link" asp-controller="Staff" asp-action="MemberProfile">Member Profile</a>
+                                                            <a class="nav-link" asp-area="Apps" asp-controller="Staff" asp-action="MemberProfile">Member Profile</a>
                                                         </li><!--end nav-item-->
                                                         <li class="nav-item">
-                                                            <a class="nav-link" asp-controller="Staff" asp-action="Salary">Staff Salary</a>
+                                                            <a class="nav-link" asp-area="Apps" asp-controller="Staff" asp-action="Salary">Staff Salary</a>
                                                         </li><!--end nav-item-->
                                                     </ul><!--end nav-->
                                                 </div><!--end sidebarStaff-->
@@ -402,31 +402,31 @@
                                                 <div class="collapse" id="sidebarGeneral">
                                                     <ul class="nav flex-column">
                                                         <li class="nav-item">
-                                                            <a class="nav-link" asp-controller="General" asp-action="Allotments">Room Allotments</a>
+                                                            <a class="nav-link" asp-area="Apps" asp-controller="General" asp-action="Allotments">Room Allotments</a>
                                                         </li><!--end nav-item-->
                                                         <li class="nav-item">
-                                                            <a class="nav-link" asp-controller="General" asp-action="Expenses">Expenses Report</a>
+                                                            <a class="nav-link" asp-area="Apps" asp-controller="General" asp-action="Expenses">Expenses Report</a>
                                                         </li><!--end nav-item-->
                                                         <li class="nav-item">
-                                                            <a class="nav-link" asp-controller="General" asp-action="Departments">Departments</a>
+                                                            <a class="nav-link" asp-area="Apps" asp-controller="General" asp-action="Departments">Departments</a>
                                                         </li><!--end nav-item-->
                                                         <li class="nav-item">
-                                                            <a class="nav-link" asp-controller="General" asp-action="Insurance">Insurance Co.</a>
+                                                            <a class="nav-link" asp-area="Apps" asp-controller="General" asp-action="Insurance">Insurance Co.</a>
                                                         </li><!--end nav-item-->
                                                         <li class="nav-item">
-                                                            <a class="nav-link" asp-controller="General" asp-action="Events">Events</a>
+                                                            <a class="nav-link" asp-area="Apps" asp-controller="General" asp-action="Events">Events</a>
                                                         </li><!--end nav-item-->
                                                         <li class="nav-item">
-                                                            <a class="nav-link" asp-controller="General" asp-action="Leaves">Leaves</a>
+                                                            <a class="nav-link" asp-area="Apps" asp-controller="General" asp-action="Leaves">Leaves</a>
                                                         </li><!--end nav-item-->
                                                         <li class="nav-item">
-                                                            <a class="nav-link" asp-controller="General" asp-action="Holidays">Holidays</a>
+                                                            <a class="nav-link" asp-area="Apps" asp-controller="General" asp-action="Holidays">Holidays</a>
                                                         </li><!--end nav-item-->
                                                         <li class="nav-item">
-                                                            <a class="nav-link" asp-controller="General" asp-action="Attendance">Attendance</a>
+                                                            <a class="nav-link" asp-area="Apps" asp-controller="General" asp-action="Attendance">Attendance</a>
                                                         </li><!--end nav-item-->
                                                         <li class="nav-item">
-                                                            <a class="nav-link" asp-controller="General" asp-action="Chat">Chat</a>
+                                                            <a class="nav-link" asp-area="Apps" asp-controller="General" asp-action="Chat">Chat</a>
                                                         </li><!--end nav-item-->
                                                     </ul><!--end nav-->
                                                 </div><!--end sidebarGeneral-->
@@ -443,10 +443,10 @@
                                     <div class="collapse " id="sidebarEmail">
                                         <ul class="nav flex-column">
                                             <li class="nav-item">
-                                                <a class="nav-link" asp-controller="Email" asp-action="Inbox">Inbox</a>
+                                                <a class="nav-link" asp-area="Apps" asp-controller="Email" asp-action="Inbox">Inbox</a>
                                             </li><!--end nav-item-->
                                             <li class="nav-item">
-                                                <a class="nav-link" asp-controller="Email" asp-action="ReadEmail">Read Email</a>
+                                                <a class="nav-link"  asp-controller="Email" asp-action="ReadEmail">Read Email</a>
                                             </li><!--end nav-item--> 
                                         </ul><!--end nav-->
                                     </div><!--end sidebarEmail-->

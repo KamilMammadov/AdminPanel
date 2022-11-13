@@ -1,8 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace WebAdminPanel.Controllers
+namespace WebAdminPanel.Dashboard.Controllers
 {
-    public class AnalyticsController : Controller
+    [Area("Dashboard")]
+    public class CRMController : Controller
     {
         public IActionResult Index()
         {

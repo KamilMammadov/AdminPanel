@@ -2,6 +2,7 @@
 
 namespace WebAdminPanel.Controllers
 {
+        [Area("apps")]
     public class GeneralController : Controller
     {
         public IActionResult Allotments()

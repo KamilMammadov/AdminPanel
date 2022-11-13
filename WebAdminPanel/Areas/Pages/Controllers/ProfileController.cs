@@ -1,10 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace WebAdminPanel.Controllers
+namespace WebAdminPanel.Areas.Pages.Controllers
 {
-    [Area("apps")]
-
-    public class HomeController : Controller
+    [Area("Pages")]
+    public class ProfileController : Controller
     {
         public IActionResult Index()
         {

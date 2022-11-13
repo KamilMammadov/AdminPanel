@@ -14,7 +14,7 @@ namespace WebAdminPanel
          
             app.MapControllerRoute(
                 name: "default",
-                pattern: "{area:exists}/{controller=Home}/{action=Index}"
+                pattern: "{area:exists=Apps}/{controller=Home}/{action=Index}"
                 );
 
             app.Run();

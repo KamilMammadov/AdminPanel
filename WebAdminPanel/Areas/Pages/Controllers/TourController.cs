@@ -1,10 +1,10 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace WebAdminPanel.Controllers
+namespace WebAdminPanel.Areas.Pages.Controllers
 {
-    [Area("apps")]
+    [Area("Pages")]
 
-    public class HomeController : Controller
+    public class TourController : Controller
     {
         public IActionResult Index()
         {

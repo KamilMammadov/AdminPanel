@@ -4,7 +4,7 @@ namespace WebAdminPanel.Areas.Dashboard.Controllers
 {
     [Area("Dashboard")]
 
-    public class HelpDeskController : Controller
+    public class HospitalController : Controller
     {
         public IActionResult Index()
         {
